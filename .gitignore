@@ -1,0 +1,63 @@
+# -------------------------
+# Node / Express .gitignore
+# -------------------------
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables (🛑 IMPORTANTISSIMO — non committarli mai)
+.env
+.env.*.local
+.env.local
+
+# Build / output
+dist/
+build/
+.tmp/
+temp/
+tmp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+vite-cache/
+vite.config.timestamp-*
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+
+# Local only scripts/data
+data/
+uploads/
+storage/
+
+pokemon/pokemon-files
