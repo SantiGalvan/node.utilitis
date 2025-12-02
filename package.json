@@ -1,12 +1,18 @@
 {
   "name": "node.utilitis",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pokemon": "node pokemon/fetchPokemonsSprite.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "node-fetch": "^3.3.2"
+  }
 }
